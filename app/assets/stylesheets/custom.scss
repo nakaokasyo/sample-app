@@ -3,6 +3,11 @@
 
 /* 共通 */
 
+header {
+  background-color: teal;
+}
+
+
 body {
   padding-top: 60px;
 }
@@ -57,16 +62,37 @@ p {
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  font-style: italic;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #C0C0C0;
   text-decoration: none;
 }
+
+
+.header-list{
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+.nav .header-list:hover{
+  color: #C0C0C0;
+  background-color: transparent;
+}
+
+.top-left-wrapper{
+  width:500px;
+  margin-right: auto;
+}
+
+
 
 /* デバッグウインドウ */
 
